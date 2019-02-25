@@ -8,4 +8,4 @@ Following the guide from: [https://aurelia.io/docs/tutorials](https://aurelia.io
 - the web component's file, i.e. `app.html` should also reside inside /src folder same folder as its module `app.js`
 
 ### Apps
-- [Todo App](https://aurelia.io/docs/tutorials/creating-a-todo-app) [todo-app](todo-app)
+- [Todo App](https://aurelia.io/docs/tutorials/creating-a-todo-app) => [/todo-app](todo-app)
