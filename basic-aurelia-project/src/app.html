@@ -5,4 +5,14 @@
         <input type="text" value.bind="todoDescription">
         <button type="submit">Add Todo</button>
     </form>
+
+    <ul>
+        <li repeat.for="todo of todos">
+            <input type="checkbox" checked.bind="todo.done">
+            <span>
+                ${todo.description}
+            </span>
+            <button click.trigger="removeTodo(todo)">Remove</button>
+        </li>
+    </ul>
 </template>
